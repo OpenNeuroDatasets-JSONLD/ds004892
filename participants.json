@@ -1,18 +1,67 @@
 {
     "participant_id": {
-        "Description": "Unique participant identifier"
+        "Description": "Unique participant identifier",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:ParticipantID",
+                "Label": "Participant ID"
+            },
+            "VariableType": "Identifier"
+        }
     },
     "age": {
-        "LongName": "Participant Age in Years"
+        "LongName": "Participant Age in Years",
+        "Description": "",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Age",
+                "Label": "Age"
+            },
+            "VariableType": "Continuous",
+            "Format": {
+                "TermURL": "nb:FromFloat",
+                "Label": "float"
+            },
+            "MissingValues": [
+                "n/a",
+                "N/A",
+                "na",
+                "NA",
+                "nan",
+                "NaN",
+                ""
+            ]
+        }
     },
     "sex": {
-        "LongName": "Sex"
+        "LongName": "Sex",
+        "Description": "",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Sex",
+                "Label": "Sex"
+            },
+            "VariableType": "Categorical",
+            "Levels": {
+                "F": {
+                    "TermURL": "snomed:248152002",
+                    "Label": "Female"
+                },
+                "M": {
+                    "TermURL": "snomed:248153007",
+                    "Label": "Male"
+                }
+            },
+            "MissingValues": []
+        }
     },
     "size": {
-        "LongName": "Height in meter"
+        "LongName": "Height in meter",
+        "Description": ""
     },
     "weight": {
-        "LongName": "Weight in kilo"
+        "LongName": "Weight in kilo",
+        "Description": ""
     },
     "cov_total": {
         "LongName": "Covid Stress Scale",
@@ -73,5 +122,131 @@
     "erq_es": {
         "LongName": "Expressive Suppression",
         "Description": "The Emotion Regulation Questionnaire (ERQ) is a short tool measuring two facets of emotion regulation: Cognitive Reappraisal and Expressive Suppression. Gross, J.J., & John, O.P. (2003)."
+    },
+    "AfterTheRainAbsorbed": {
+        "Description": ""
+    },
+    "AfterTheRainEnjoyed": {
+        "Description": ""
+    },
+    "AfterTheRainInterested": {
+        "Description": ""
+    },
+    "BetweenViewingsAbsorbed": {
+        "Description": ""
+    },
+    "BetweenViewingsEnjoyed": {
+        "Description": ""
+    },
+    "BetweenViewingsInterested": {
+        "Description": ""
+    },
+    "BigBuckBunnyAbsorbed": {
+        "Description": ""
+    },
+    "BigBuckBunnyEnjoyed": {
+        "Description": ""
+    },
+    "BigBuckBunnyInterested": {
+        "Description": ""
+    },
+    "ChatterAbsorbed": {
+        "Description": ""
+    },
+    "ChatterEnjoyed": {
+        "Description": ""
+    },
+    "ChatterInterested": {
+        "Description": ""
+    },
+    "FirstBiteAbsorbed": {
+        "Description": ""
+    },
+    "FirstBiteEnjoyed": {
+        "Description": ""
+    },
+    "FirstBiteInterested": {
+        "Description": ""
+    },
+    "LessonLearnedAbsorbed": {
+        "Description": ""
+    },
+    "LessonLearnedEnjoyed": {
+        "Description": ""
+    },
+    "LessonLearnedInterested": {
+        "Description": ""
+    },
+    "PayloadAbsorbed": {
+        "Description": ""
+    },
+    "PayloadEnjoyed": {
+        "Description": ""
+    },
+    "PayloadInterested": {
+        "Description": ""
+    },
+    "SintelAbsorbed": {
+        "Description": ""
+    },
+    "SintelEnjoyed": {
+        "Description": ""
+    },
+    "SintelInterested": {
+        "Description": ""
+    },
+    "SpacemanAbsorbed": {
+        "Description": ""
+    },
+    "SpacemanEnjoyed": {
+        "Description": ""
+    },
+    "SpacemanInterested": {
+        "Description": ""
+    },
+    "SuperheroAbsorbed": {
+        "Description": ""
+    },
+    "SuperheroEnjoyed": {
+        "Description": ""
+    },
+    "SuperheroInterested": {
+        "Description": ""
+    },
+    "TearsOfSteelAbsorbed": {
+        "Description": ""
+    },
+    "TearsOfSteelEnjoyed": {
+        "Description": ""
+    },
+    "TearsOfSteelInterested": {
+        "Description": ""
+    },
+    "TheSecretNumberAbsorbed": {
+        "Description": ""
+    },
+    "TheSecretNumberEnjoyed": {
+        "Description": ""
+    },
+    "TheSecretNumberInterested": {
+        "Description": ""
+    },
+    "ToClaireFromSonnyAbsorbed": {
+        "Description": ""
+    },
+    "ToClaireFromSonnyEnjoyed": {
+        "Description": ""
+    },
+    "ToClaireFromSonnyInterested": {
+        "Description": ""
+    },
+    "YouAgainAbsorbed": {
+        "Description": ""
+    },
+    "YouAgainEnjoyed": {
+        "Description": ""
+    },
+    "YouAgainInterested": {
+        "Description": ""
     }
 }
